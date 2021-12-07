@@ -1,0 +1,22 @@
+# bulkrename
+CLI for bulk-updating files name  
+
+Using Cliffy as CLI framework  
+https://github.com/c4spar/deno-cliffy/tree/main/command
+
+## Usage
+```
+❯ deno run index.ts -h
+
+  Usage:   bulkrename [target-filename] [filename-to-be] [directory]
+  Version: bulkrename 0.1.0                                         
+
+  Description:
+
+    for bulk-updating files name
+
+  Options:
+
+    -h, --help     - Show this help.                            
+    -V, --version  - Show the version number for this program.
+```
