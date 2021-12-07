@@ -54,6 +54,10 @@ const listItems = async (dirPath: string) => {
 ////////////////////
 // execution
 async function execute() {
+  if ([targetFileName, renamedFileName, entryPath].includes(undefined)) {
+    console.log("All of three arguments should be specified. Check help.");
+    Deno.exit(1);
+  }
   await listItems(entryPath);
 }
 
