@@ -8,7 +8,7 @@ https://github.com/c4spar/deno-cliffy/tree/main/command
 
 pull and run below to generate UNIX executable
 ```
-$ deno compile index.ts
+$ deno compile --allow-read --allow-write index.ts
 ```
 
 Run command below to **rename `index.tsx` to `index.page.tsx` in `./src/pages`**.  
