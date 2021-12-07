@@ -6,6 +6,11 @@ https://github.com/c4spar/deno-cliffy/tree/main/command
 
 ## Usage
 
+pull and run below to generate UNIX executable
+```
+$ deno compile index.ts
+```
+
 Run command below to **rename `index.tsx` to `index.page.tsx` in `./src/pages`**.  
 ```
 $ bulkrename index.tsx index.page.tsx ./src/pages
